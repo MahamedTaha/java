@@ -1,0 +1,29 @@
+package Task20;
+
+import java.util.Scanner;
+
+public class java {
+
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("what is your name");
+        String name = in.next();
+        System.out.println("=================");
+        System.out.println("Hi\n" + name);
+        System.out.println("=================");
+        System.out.println("what year the user was born?");
+        int born = in.nextInt();
+
+        int age = 2022 - born;
+
+        System.out.println("your age is : " + age);
+
+        if (age >= 21) {
+            System.out.println("YOU ARE AN ADULT!");
+        }
+
+    }
+
+}
